@@ -695,6 +695,7 @@ img {
 /* ============= Projects ============= */
 .projects {
   background-color: var(--bg-color-section2);
+  text-align: center;
 
   .projects__container {
     gap: 2rem;
