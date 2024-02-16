@@ -20,7 +20,7 @@ function sendEmail(e) {
   }
 
   if (params.name && params.email && params.subject && params.message) {
-    emailjs.send('sservice_f2wsk1n', 'template_4uvdh44', params).then(openModal())
+    emailjs.send('service_f2wsk1n', 'template_4uvdh44', params).then(openModal())
   }
 
 }
